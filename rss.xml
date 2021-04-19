@@ -1,38 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>GOODAN 的个人博客</title>
+    <title>GOODAN</title>
     <link>https://GOOD-AN.github.io</link>
     <atom:link href="https://GOOD-AN.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-    <description>记录精彩的程序人生</description>
+    <description>随便写写，不定期更新</description>
     <generator>Solo, v4.3.1, https://b3log.org/solo</generator>
-    <lastBuildDate>Mon, 19 Apr 2021 19:03:51 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 20 Apr 2021 00:30:54 +0800</lastBuildDate>
     <language>zh-cn</language>
     <item>
-      <title>测试文章</title>
-      <link>https://GOOD-AN.github.io/articles/2021/04/19/1618830152945.html</link>
+      <title>Python的小练习二</title>
+      <link>https://GOOD-AN.github.io/articles/2021/04/20/1618849791829.html</link>
       <description/>
       <author>GOODAN</author>
-      <guid>https://GOOD-AN.github.io/articles/2021/04/19/1618830152945.html</guid>
-      <category>待分类</category>
-      <pubDate>Mon, 19 Apr 2021 19:02:33 +0800</pubDate>
+      <guid>https://GOOD-AN.github.io/articles/2021/04/20/1618849791829.html</guid>
+      <category>Python</category>
+      <category>编程</category>
+      <pubDate>Tue, 20 Apr 2021 00:30:35 +0800</pubDate>
     </item>
     <item>
-      <title>世界，你好！</title>
-      <link>https://GOOD-AN.github.io/hello-solo</link>
-      <description><![CDATA[<p><img src="https://b3logfile.com/bing/20180530.jpg?imageView2/1/w/1280/h/720/interlace/1/q/100" alt=""></p>
-<p>Solo 博客系统已经初始化完毕，可在管理后台 - 工具 - 偏好设定中调整更多细节设置。如果需要导入已有博客文章，请参考文档 <a href="https://ld246.com/article/1498490209748" target="_blank">Solo 支持 Hexo/Jekyll 数据导入</a>。</p>
-<p>对了，出于安全考虑请尽快完成如下操作：</p>
-<ol>
-<li>登录链滴社区后，在<a href="https://ld246.com/settings/b3" target="_blank">个人设置 - B3</a> 中更新 B3 Key</li>
-<li>在 Solo 管理后台 - 工具 - 用户管理中也进行同样的 B3 Key 更新</li>
-</ol>
-<p>另外，如果你需要开启评论系统，请参考 <a href="https://ld246.com/article/1594988019287" target="_blank">Solo 集成 Gitalk 评论系统</a>。</p>
-<p>最后，如果你觉得 Solo 很赞的话，请到<a href="https://github.com/88250/solo" target="_blank">项目主页</a> Watch、Star、Fork 三连 😍</p>]]></description>
+      <title>Python的一点小练习</title>
+      <link>https://GOOD-AN.github.io/articles/2021/04/20/1618849525074.html</link>
+      <description/>
       <author>GOODAN</author>
-      <guid>https://GOOD-AN.github.io/hello-solo</guid>
-      <category>Solo</category>
-      <pubDate>Mon, 19 Apr 2021 18:36:00 +0800</pubDate>
+      <guid>https://GOOD-AN.github.io/articles/2021/04/20/1618849525074.html</guid>
+      <category>Python</category>
+      <category>编程</category>
+      <pubDate>Tue, 20 Apr 2021 00:30:21 +0800</pubDate>
     </item>
   </channel>
 </rss>

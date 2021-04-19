@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/><meta name="theme-color" content="#3b3e43"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no"/><title>Python的一点小练习 - GOODAN</title><meta name="description" content="A small and beautiful blogging system. 一款小而美的博客系统。"/><meta property="og:description" content="A small and beautiful blogging system. 一款小而美的博客系统。"/>    <meta name="keywords" content="Solo,Java,博客,开源"/><link rel="dns-prefetch" href="https://GOOD-AN.github.io"/><link rel="dns-prefetch" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://GOOD-AN.github.io"><link rel="icon" type="image/png" href="https://b3log.org/images/brand/solo-128.png"/><link rel="apple-touch-icon" href="https://b3log.org/images/brand/solo-128.png"><link rel="shortcut icon" type="image/x-icon" href="https://b3log.org/images/brand/solo-128.png"><meta name="copyright" content="B3log"/><meta http-equiv="Window-target" content="_top"/><meta property="og:locale" content="zh_CN"/><meta property="og:title" content="Python的一点小练习 - GOODAN"/><meta property="og:site_name" content="GOODAN"/><meta property="og:url"      content="https://GOOD-AN.github.io/articles/2021/04/20/1618849525074.html?"/><meta property="og:image" content="https://b3log.org/images/brand/solo-128.png"/><link rel="search" type="application/opensearchdescription+xml" title="Python的一点小练习 - GOODAN" href="/opensearch.xml"><link href="https://GOOD-AN.github.io/rss.xml" title="RSS" type="application/rss+xml" rel="alternate"/><link rel="manifest" href="https://GOOD-AN.github.io/manifest.json">        <link rel="canonical" href="https://GOOD-AN.github.io/articles/2021/04/20/1618849525074.html">        <link rel="stylesheet"
+              href="https://GOOD-AN.github.io/skins/yilia/css/base.css?1618843579039"/>
+            <link rel="next" title="Python的小练习二" href="https://GOOD-AN.github.io/articles/2021/04/20/1618849791829.html">
+    <script src="https://cdn.jsdelivr.net/npm/vditor@3.8.4/dist/js/icons/ant.js" async="" id="vditorIconScript"></script></head>
+<body>
+<div class="side fn__flex-column">
+    <div class="overlay">
+        <a onclick="$('.side .toc').show()" href="javascript:void(0)" class="toc-btn">目录</a>
+    </div>
+    <div class="user__sites">
+    <a href="https://ld246.com/member/GOODAN"
+       title="https://ld246.com/member/GOODAN"
+       class="user__site"
+       target="_blank" rel="noopener nofollow">
+        <svg viewBox="0 0 32 32" width="100%" height="100%">
+            <path fill="#d23f31" style="fill: var(--color1, #d23f31)" d="M5.787 17.226h17.033l5.954 9.528c0.47 0.752 0.003 1.361-1.042 1.361h-15.141z"></path>
+            <path d="M10.74 3.927h17.033c1.045 0 1.512 0.609 1.042 1.361l-5.954 9.528h-19.872l6.379-10.209c0.235-0.376 0.849-0.681 1.372-0.681z"></path>
+            <path d="M2.953 17.226h2.839l6.804 10.889h-1.892c-0.523 0-1.137-0.305-1.372-0.681z"></path>
+        </svg>
+    </a>
+
+        <a href="https://github.com/GOOD-AN"
+           title="https://github.com/GOOD-AN"
+           class="user__site"
+           target="_blank" rel="noopener nofollow">
+            <svg viewBox="0 0 32 32" width="100%" height="100%">
+                <path d="M16 0.331c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182 0.8 0.148 1.094-0.347 1.094-0.77 0-0.381-0.015-1.642-0.022-2.979-4.452 0.968-5.391-1.888-5.391-1.888-0.728-1.849-1.776-2.341-1.776-2.341-1.452-0.993 0.11-0.973 0.11-0.973 1.606 0.113 2.452 1.649 2.452 1.649 1.427 2.446 3.743 1.739 4.656 1.33 0.143-1.034 0.558-1.74 1.016-2.14-3.554-0.404-7.29-1.777-7.29-7.907 0-1.747 0.625-3.174 1.649-4.295-0.166-0.403-0.714-2.030 0.155-4.234 0 0 1.344-0.43 4.401 1.64 1.276-0.355 2.645-0.532 4.005-0.539 1.359 0.006 2.729 0.184 4.008 0.539 3.054-2.070 4.395-1.64 4.395-1.64 0.871 2.204 0.323 3.831 0.157 4.234 1.026 1.12 1.647 2.548 1.647 4.295 0 6.145-3.743 7.498-7.306 7.895 0.574 0.497 1.085 1.47 1.085 2.963 0 2.141-0.019 3.864-0.019 4.391 0 0.426 0.288 0.925 1.099 0.768 6.354-2.118 10.933-8.113 10.933-15.18 0-8.837-7.164-16-16-16z"></path>
+            </svg>
+        </a>
+
+    </div>
+    <header class="content fn__flex-1">
+        <a href="https://GOOD-AN.github.io">
+            <img class="avatar" src="https://b3logfile.com/avatar/1618828250152_1618828402368.jpeg?imageView2/1/w/128/h/128/interlace/0/q/100" title="" alt=""/>
+        </a>
+        <hgroup>
+            <h1>
+                <a href="https://GOOD-AN.github.io">GOODAN</a>
+            </h1>
+        </hgroup>
+        <p class="subtitle">
+            随便写写，不定期更新
+        </p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://GOOD-AN.github.io/tags.html">标签墙</a>
+                    &nbsp; &nbsp;
+                    <a href="https://GOOD-AN.github.io/archives.html">存档</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <footer>
+            <div class="vditor-reset"><!-- 公告栏可使用 HTML、JavaScript，比如可以在此加入第三方统计 js --></div>
+        <a rel="alternate" href="https://GOOD-AN.github.io/rss.xml" title="订阅" class="icon-rss"></a>
+    </footer>
+</div>
+<main>
+    <article class="post">
+        <header class="fn__flex">
+            <h2 class="fn__flex-1">
+                <a rel="bookmark" href="https://GOOD-AN.github.io/articles/2021/04/20/1618849525074.html">
+                    Python的一点小练习
+                </a>
+            </h2>
+            <time><span class="icon-date"></span> 2021-04-20</time>
+        </header>
+        <div class="article__footer fn__flex">
+            <span class="icon-tag fn__flex-center"></span>
+            <span>&nbsp;&nbsp;&nbsp;</span>
+            <div class="tags fn__flex-1 fn__flex-center">
+                    <a class="tag" rel="tag" href="https://GOOD-AN.github.io/tags/Python">
+                        Python</a>
+                    <a class="tag" rel="tag" href="https://GOOD-AN.github.io/tags/%E7%BC%96%E7%A8%8B">
+                        编程</a>
+            </div>
+            <span>&nbsp;&nbsp;&nbsp;</span>
+                <a href="https://GOOD-AN.github.io/articles/2021/04/20/1618849525074.html#b3logsolocomments"
+                   class="vditor-tooltipped__n vditor-tooltipped link fn__flex-center"
+                   aria-label="评论">
+                    <span data-uvstatcmt="1618849525074">0</span>
+                    <span class="icon-chat"></span>
+                </a>
+            <a class="vditor-tooltipped__n vditor-tooltipped link fn__flex-center"
+               href="https://GOOD-AN.github.io/articles/2021/04/20/1618849525074.html"
+               aria-label="浏览">
+                <span data-uvstaturl="https://GOOD-AN.github.io/articles/2021/04/20/1618849525074.html">0</span>
+                <span class="icon-views"></span>
+            </a>
+            <a rel="nofollow" href="https://GOOD-AN.github.io/authors/1618828559788" class="fn__flex-center">
+                <img class="avatar" title="GOODAN" alt="GOODAN"
+                     src="https://b3logfile.com/avatar/1618828250152_1618828402368.jpeg?imageView2/1/w/128/h/128/interlace/0/q/100"/>
+            </a>
+        </div>
+
+        <section class="abstract vditor-reset">
+            <p><strong>如有错误或者更好的解答方式，欢迎批评指正与交流。</strong></p>
+<p><strong>1.计算整数列表的平均值</strong></p>
+<p>【问题描述】</p>
+<p>给出一个整数列表，计算所有元素的平均值。</p>
+<p>【输入形式】</p>
+<p>输入列表，包括逗号，元素应逗号分隔</p>
+<p>【输出形式】</p>
+<p>小数，结果保留两位。</p>
+<p>【样例输入】</p>
+<p>[1,2,3,4,5]</p>
+<p>【样例输出】</p>
+<p>3.00</p>
+<p>【样例说明】</p>
+<p>用列表的形式输入—串整数，然后计算平均值，输出3.00，结果保留了两位小数。</p>
+<p>【解题代码】</p>
+<pre><code class="language-python">#计算整数列表平均值
+a = eval(input())
+suma = 0
+for i in a:
+    suma = suma + i
+avg = suma / len(a)
+print("%.2f" % avg)
+</code></pre>
+<p><strong>2.删除列表中的最大元素和最小元素</strong></p>
+<p>【问题描述】</p>
+<p>读入一个列表，删除其中的最大元素和最小元素，输出列表。最大元素和最小元素可能有多个。</p>
+<p>【输入形式】</p>
+<p>输入列表，包括方括号，元素应逗号分隔</p>
+<p>【输出形式】</p>
+<p>直接用print输出列表</p>
+<p>【样例输入】</p>
+<p>[1,2,3,4,5,6,1,7,7]</p>
+<p>【样例输出】</p>
+<p>[2,3,4,5,6]</p>
+<p>【解答代码】</p>
+<pre><code class="language-python">#删除列表最大最小值
+a = eval(input())
+mina = min(a)
+maxa = max(a)
+while mina in a:
+    a.remove(mina)
+while maxa in a:
+    a.remove(maxa)
+print(a)
+</code></pre>
+<p><strong>3.计算圆周率近似值</strong></p>
+<p>【问题描述】</p>
+<p>已知可以用下列公式计算圆周率的<img src="https://api.bilibili.com/x/web-frontend/mathjax/tex?formula=%5CPi+" alt="%5CPi+">近似值。给定一个<img src="https://api.bilibili.com/x/web-frontend/mathjax/tex?formula=%5CPi+" alt="%5CPi+">的近似值e，编程利用下列公式求得最接近e并且小于e的近似值<img src="https://api.bilibili.com/x/web-frontend/mathjax/tex?formula=%5CPi+" alt="%5CPi+">，以及迭代次数n。</p>
+<p><img src="https://api.bilibili.com/x/web-frontend/mathjax/tex?formula=%5CPi+%2F2%3D1%2B1!%2F3%2B2!%2F(3%2B5)%2B3!%2F(3%2B5%2B7)%2B%E2%80%A6%2B(n-1!)%2F(3*5*7*%E2%80%A6*(2n-1))" alt="%5CPi+%2F2%3D1%2B1!%2F3%2B2!%2F(3%2B5)%2B3!%2F(3%2B5%2B7)%2B%E2%80%A6%2B(n-1!)%2F(357*%E2%80%A6*(2n-1))"></p>
+<p>【输入形式】</p>
+<p>从控制台输入e(e大于2，小于3.1415925)的值</p>
+<p>【输出形式】</p>
+<p>输出最接近e并且小于e的近似值<img src="https://api.bilibili.com/x/web-frontend/mathjax/tex?formula=%5CPi+" alt="%5CPi+">，以及迭代次数n(以一个空格分隔，并且输出<img src="https://api.bilibili.com/x/web-frontend/mathjax/tex?formula=%5CPi+" alt="%5CPi+">时要求小数点后保留7位有效数字)。</p>
+<p>【样例输入】</p>
+<p>3.14159</p>
+<p>【样例输出】</p>
+<p>3.1415896 18</p>
+<p>【样例说明】</p>
+<p>输入的<img src="https://api.bilibili.com/x/web-frontend/mathjax/tex?formula=%5CPi+" alt="%5CPi+">的近似值e位3.14159，当n为18时计算的<img src="https://api.bilibili.com/x/web-frontend/mathjax/tex?formula=%5CPi+" alt="%5CPi+">值为3.1415896，小于给定的精度值。当n为19时，计算的<img src="https://api.bilibili.com/x/web-frontend/mathjax/tex?formula=%5CPi+" alt="%5CPi+">值为3.1415912，大于给定的精度值，所以利用上述公式求得的最接近e并且小于e的<img src="https://api.bilibili.com/x/web-frontend/mathjax/tex?formula=%5CPi+" alt="%5CPi+">的近似值为3.1415896，对应的迭代次数为18次。</p>
+<p>【解题代码】</p>
+<pre><code class="language-python">#圆周率
+e = float(input())
+pia = 1.0
+n = 2
+k = 1.0
+t = 1.0
+while pia &lt; (e / 2):
+    pi = pia
+    k = k * (n - 1)
+    t = t * (2 * n - 1)
+    pia = pia + k / t
+    n = n + 1
+pi = pi * 2
+print("%.7f" % pi, end=' ')
+print(n - 2)
+</code></pre>
+                <div>
+                    <hr>
+
+标题：Python的一点小练习<br>
+作者：<a href="https://GOOD-AN.github.io" target="_blank">GOODAN</a><br>
+地址：<a href="https://GOOD-AN.github.io/articles/2021/04/20/1618849525074.html" target="_blank">https://GOOD-AN.github.io/articles/2021/04/20/1618849525074.html</a><br>
+
+<!-- 签名档内可使用 HTML、JavaScript -->
+<br>
+                </div>
+
+                <aside class="fn__flex">
+                        <a class="fn__flex-inline" rel="next" href="https://GOOD-AN.github.io/articles/2021/04/20/1618849791829.html">
+                            <span>Python的小练习二&nbsp; </span>
+                            <strong>&gt;</strong>
+                        </a>
+                </aside>
+        </section>
+
+        <footer class="fn-clear share">
+            <div class="fn-right">
+<div class="article__share"
+     data-title="Python的一点小练习"
+     data-blogtitle="GOODAN"
+     data-url="https://GOOD-AN.github.io/articles/2021/04/20/1618849525074.html"
+     data-avatar="https://b3logfile.com/avatar/1618828250152_1618828402368.jpeg?imageView2/1/w/128/h/128/interlace/0/q/100">
+    <span class="item" data-type="qqz">
+        <svg viewBox="0 0 32 32" width="100%" height="100%">
+            <path d="M22.824 13.989l-8.348 6.287s3.351 0.522 8.404 0.461l-0.23-1.040 7.2-6.549c0.132-0.12 0.183-0.312 0.129-0.487s-0.203-0.299-0.377-0.314l-9.492-0.856-3.708-9.213c-0.068-0.169-0.226-0.279-0.401-0.279s-0.333 0.11-0.401 0.279l-3.708 9.213-9.492 0.856c-0.174 0.015-0.323 0.139-0.377 0.314s-0.004 0.366 0.129 0.487l7.2 6.549-2.158 9.742c-0.040 0.178 0.026 0.365 0.168 0.474 0.142 0.107 0.331 0.115 0.481 0.021l8.158-5.165 8.158 5.165c0.070 0.045 0.147 0.066 0.225 0.066 0.090 0 0.18-0.029 0.256-0.086 0.142-0.109 0.208-0.295 0.168-0.474l-1.707-7.704c0.732-0.386 1.538-1.040 1.538-1.040s-3.195 1.638-14.664 0.838l8.312-6.325s-0.327-0.534-10.744-0.914c-0.697-0.026 8.493-1.83 15.281-0.305z"></path>
+        </svg>
+    </span>
+    <span class="item" data-type="wechat">
+        <svg viewBox="0 0 32 32" width="100%" height="100%">
+            <path d="M9.062 9.203c0-0.859-0.562-1.422-1.422-1.422-0.844 0-1.703 0.562-1.703 1.422 0 0.844 0.859 1.406 1.703 1.406 0.859 0 1.422-0.562 1.422-1.406zM20.672 17.125c0-0.562-0.562-1.125-1.422-1.125-0.562 0-1.125 0.562-1.125 1.125 0 0.578 0.562 1.141 1.125 1.141 0.859 0 1.422-0.562 1.422-1.141zM16.984 9.203c0-0.859-0.562-1.422-1.406-1.422-0.859 0-1.703 0.562-1.703 1.422 0 0.844 0.844 1.406 1.703 1.406 0.844 0 1.406-0.562 1.406-1.406zM26.906 17.125c0-0.562-0.578-1.125-1.422-1.125-0.562 0-1.125 0.562-1.125 1.125 0 0.578 0.562 1.141 1.125 1.141 0.844 0 1.422-0.562 1.422-1.141zM22.75 10.922c-0.359-0.047-0.719-0.063-1.094-0.063-5.375 0-9.625 4.016-9.625 8.953 0 0.828 0.125 1.625 0.359 2.375-0.359 0.031-0.703 0.047-1.063 0.047-1.422 0-2.547-0.281-3.969-0.562l-3.953 1.984 1.125-3.406c-2.828-1.984-4.531-4.547-4.531-7.656 0-5.391 5.094-9.625 11.328-9.625 5.563 0 10.453 3.391 11.422 7.953zM32 19.687c0 2.547-1.688 4.813-3.969 6.516l0.859 2.828-3.109-1.703c-1.141 0.281-2.281 0.578-3.406 0.578-5.391 0-9.625-3.688-9.625-8.219s4.234-8.219 9.625-8.219c5.094 0 9.625 3.688 9.625 8.219z"></path>
+        </svg>
+    </span>
+    <span class="item" data-type="weibo">
+        <svg viewBox="0 0 32 32" width="100%" height="100%">
+            <path d="M13.444 27.064c-5.3 0.525-9.875-1.875-10.219-5.35-0.344-3.481 3.675-6.719 8.969-7.244 5.3-0.525 9.875 1.875 10.212 5.35 0.35 3.481-3.669 6.725-8.963 7.244zM24.038 15.521c-0.45-0.137-0.762-0.225-0.525-0.819 0.512-1.287 0.563-2.394 0.006-3.188-1.038-1.481-3.881-1.406-7.137-0.037 0 0-1.025 0.444-0.762-0.363 0.5-1.613 0.425-2.956-0.356-3.737-1.769-1.769-6.469 0.069-10.5 4.1-3.013 3.006-4.763 6.212-4.763 8.981 0 5.287 6.787 8.506 13.425 8.506 8.7 0 14.494-5.056 14.494-9.069 0-2.431-2.044-3.806-3.881-4.375z"></path>
+            <path d="M29.819 5.833c-2.1-2.331-5.2-3.219-8.063-2.612v0c-0.663 0.144-1.081 0.794-0.938 1.45 0.144 0.662 0.788 1.081 1.45 0.938 2.038-0.431 4.238 0.2 5.731 1.856s1.9 3.913 1.256 5.888v0c-0.206 0.644 0.144 1.331 0.788 1.544 0.644 0.206 1.331-0.144 1.544-0.787v-0.006c0.9-2.762 0.331-5.938-1.769-8.269z"></path>
+            <path d="M26.588 8.752c-1.025-1.138-2.538-1.569-3.925-1.269-0.569 0.119-0.931 0.688-0.813 1.256 0.125 0.569 0.688 0.931 1.25 0.806v0c0.681-0.144 1.419 0.069 1.919 0.619 0.5 0.556 0.637 1.313 0.419 1.975v0c-0.175 0.55 0.125 1.15 0.681 1.331 0.556 0.175 1.15-0.125 1.331-0.681 0.438-1.356 0.163-2.906-0.863-4.037z"></path>
+            <path d="M13.738 20.771c-0.188 0.319-0.594 0.469-0.912 0.337-0.319-0.125-0.412-0.488-0.231-0.794 0.188-0.306 0.581-0.456 0.894-0.337 0.313 0.113 0.425 0.469 0.25 0.794zM12.044 22.933c-0.512 0.819-1.613 1.175-2.438 0.8-0.813-0.369-1.056-1.319-0.544-2.119 0.506-0.794 1.569-1.15 2.388-0.806 0.831 0.356 1.1 1.3 0.594 2.125zM13.969 17.146c-2.519-0.656-5.369 0.6-6.463 2.819-1.119 2.262-0.037 4.781 2.506 5.606 2.638 0.85 5.75-0.456 6.831-2.894 1.069-2.394-0.262-4.85-2.875-5.531z"></path>
+        </svg>
+    </span>
+    <span class="item" data-type="twitter">
+        <svg viewBox="0 0 32 32" width="100%" height="100%">
+            <path d="M32.003 6.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
+        </svg>
+    </span>
+    <span class="item__qr"></span>
+</div>            </div>
+        </footer>
+            <div id="relevantArticles" class="abstract"></div>
+            <div id="randomArticles" class="abstract"></div>
+        <br>
+    </article>
+        <div style="padding: 30px 60px 30px 50px;" id="gitalk-container"></div>
+        <div id="b3logsolocomments"></div>
+        <div id="vcomment" style="padding: 30px 60px 30px 50px;" data-name="GOODAN"
+             data-postId="1618849525074"></div>
+
+<footer class="footer">
+    <div class="fn-clear">
+        浏览数：<span data-uvstaturl="https://GOOD-AN.github.io">0</span>
+        &nbsp;
+        文章总数：2
+        <br>
+        &copy; 2021
+        <a href="https://GOOD-AN.github.io">GOODAN</a>
+        
+    </div>
+    <span onclick="Util.goTop()" class="icon-goup"></span>
+</footer>
+<script>
+  var Label = {
+    speech: true,
+    servePath: "https://GOOD-AN.github.io",
+    staticServePath: "https://GOOD-AN.github.io",
+    luteAvailable: false,
+    hljsStyle: 'github',
+    langLabel: "zh_CN",
+    version: "4.3.1",
+    staticSite: true,
+    showCodeBlockLn: true,
+    articleId: "1618849525074",
+  }
+</script>
+<script src="https://GOOD-AN.github.io/skins/yilia/js/common.min.js?1618843579039"></script>
+
+
+<script type="text/javascript">
+    Util.addScript('https://GOOD-AN.github.io/js/page.min.js?1618843579039', 'soloPageScript')
+    var page = new Page({
+        "commentContentCannotEmptyLabel": "评论不能为空",
+        "oId": "1618849525074",
+        "blogHost": "https://GOOD-AN.github.io",
+        "randomArticles1Label": "随机阅读：",
+        "externalRelevantArticles1Label": "站外相关阅读："
+    });
+    $(document).ready(function () {
+        page.load();
+        page.tips.externalRelevantArticlesDisplayCount = "0";
+            page.loadRandomArticles();
+            page.loadRelevantArticles('1618849525074', '<h4>相关阅读：</h4>');
+        page.share()
+    });
+</script>
+</main>
+</body>
+</html>
+
+<!-- Generated by Latke (https://github.com/88250/latke) in 14ms, 2021/04/20 00:30:54 -->
