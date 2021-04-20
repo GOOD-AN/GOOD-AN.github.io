@@ -6,7 +6,7 @@
     <atom:link href="https://GOOD-AN.github.io/rss.xml" rel="self" type="application/rss+xml"/>
     <description>随便写写，不定期更新</description>
     <generator>Solo, v4.3.1, https://b3log.org/solo</generator>
-    <lastBuildDate>Tue, 20 Apr 2021 00:30:54 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 20 Apr 2021 22:35:21 +0800</lastBuildDate>
     <language>zh-cn</language>
     <item>
       <title>Python的小练习二</title>
@@ -14,8 +14,8 @@
       <description/>
       <author>GOODAN</author>
       <guid>https://GOOD-AN.github.io/articles/2021/04/20/1618849791829.html</guid>
-      <category>Python</category>
       <category>编程</category>
+      <category>Python</category>
       <pubDate>Tue, 20 Apr 2021 00:30:35 +0800</pubDate>
     </item>
     <item>
@@ -24,8 +24,8 @@
       <description/>
       <author>GOODAN</author>
       <guid>https://GOOD-AN.github.io/articles/2021/04/20/1618849525074.html</guid>
-      <category>Python</category>
       <category>编程</category>
+      <category>Python</category>
       <pubDate>Tue, 20 Apr 2021 00:30:21 +0800</pubDate>
     </item>
   </channel>

@@ -3,10 +3,10 @@
     "theme_color": "#1fb5ad",
     "background_color": "#f1f2f7",
     "display": "standalone",
-    "name": "GOODAN 的个人博客",
+    "name": "GOODAN",
     "start_url": ".",
     "description": "随便写写，不定期更新",
-    "short_name": "GOODAN 的个人博客",
+    "short_name": "GOODAN",
     "icons": [
         {
             "sizes": "48x48",
