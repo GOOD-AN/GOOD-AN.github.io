@@ -6,7 +6,7 @@
     <atom:link href="https://GOOD-AN.github.io/rss.xml" rel="self" type="application/rss+xml"/>
     <description>随便写写，不定期更新</description>
     <generator>Solo, v4.3.1, https://b3log.org/solo</generator>
-    <lastBuildDate>Tue, 20 Apr 2021 22:58:08 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 20 Apr 2021 23:17:36 +0800</lastBuildDate>
     <language>zh-cn</language>
     <item>
       <title>我在 GitHub 上的开源项目</title>
@@ -26,8 +26,8 @@
       <description/>
       <author>GOODAN</author>
       <guid>https://GOOD-AN.github.io/articles/2021/04/20/1618849791829.html</guid>
-      <category>编程</category>
       <category>Python</category>
+      <category>编程</category>
       <pubDate>Tue, 20 Apr 2021 00:30:35 +0800</pubDate>
     </item>
     <item>
