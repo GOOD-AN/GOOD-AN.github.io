@@ -6,8 +6,20 @@
     <atom:link href="https://GOOD-AN.github.io/rss.xml" rel="self" type="application/rss+xml"/>
     <description>随便写写，不定期更新</description>
     <generator>Solo, v4.3.1, https://b3log.org/solo</generator>
-    <lastBuildDate>Wed, 21 Apr 2021 00:13:56 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 21 Apr 2021 20:31:26 +0800</lastBuildDate>
     <language>zh-cn</language>
+    <item>
+      <title>Python的一点小练习</title>
+      <link>https://GOOD-AN.github.io/articles/2021/04/20/1618849525074.html</link>
+      <description><![CDATA[<p>1.计算整数列表的平均值<br>
+2.删除列表中的最大元素和最小元素<br>
+3.计算圆周率近似值</p>]]></description>
+      <author>GOODAN</author>
+      <guid>https://GOOD-AN.github.io/articles/2021/04/20/1618849525074.html</guid>
+      <category>Python</category>
+      <category>编程</category>
+      <pubDate>Wed, 21 Apr 2021 20:14:23 +0800</pubDate>
+    </item>
     <item>
       <title>我在 GitHub 上的开源项目</title>
       <link>https://GOOD-AN.github.io/my-github-repos</link>
@@ -19,18 +31,6 @@
       <category>GitHub</category>
       <category>开源</category>
       <pubDate>Wed, 21 Apr 2021 00:04:14 +0800</pubDate>
-    </item>
-    <item>
-      <title>Python的一点小练习</title>
-      <link>https://GOOD-AN.github.io/articles/2021/04/20/1618849525074.html</link>
-      <description><![CDATA[<p>1.计算整数列表的平均值<br>
-2.删除列表中的最大元素和最小元素<br>
-3.计算圆周率近似值</p>]]></description>
-      <author>GOODAN</author>
-      <guid>https://GOOD-AN.github.io/articles/2021/04/20/1618849525074.html</guid>
-      <category>Python</category>
-      <category>编程</category>
-      <pubDate>Wed, 21 Apr 2021 00:03:54 +0800</pubDate>
     </item>
     <item>
       <title>Python的小练习二</title>
