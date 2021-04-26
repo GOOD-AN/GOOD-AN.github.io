@@ -6,7 +6,7 @@
     <atom:link href="https://GOOD-AN.github.io/rss.xml" rel="self" type="application/rss+xml"/>
     <description>随便写写，不定期更新</description>
     <generator>Solo, v4.3.1, https://b3log.org/solo</generator>
-    <lastBuildDate>Mon, 26 Apr 2021 12:50:57 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 26 Apr 2021 16:49:27 +0800</lastBuildDate>
     <language>zh-cn</language>
     <item>
       <title>Python的一点小练习</title>
@@ -16,8 +16,8 @@
 3.计算圆周率近似值</p>]]></description>
       <author>GOODAN</author>
       <guid>https://GOOD-AN.github.io/articles/2021/04/20/1618849525074.html</guid>
-      <category>Python</category>
       <category>编程</category>
+      <category>Python</category>
       <pubDate>Wed, 21 Apr 2021 20:14:23 +0800</pubDate>
     </item>
     <item>
