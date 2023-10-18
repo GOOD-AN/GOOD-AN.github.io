@@ -17,10 +17,32 @@ html.themecolor-toodark.darkmode{
 	--themecolor: #5e72e4 !important;
 	--themecolor-light: #8a98eb !important;
 }
-
+.banner-title {
+	font-size: 3em;
+}
+.banner-title .banner-subtitle {
+	font-size: 0.55em;
+}
+.post-title {
+	font-size: 35px;
+}
+.post-content {
+	font-size: 1.1rem;
+}
+.post-content p{
+	font-size: 1.1rem;
+}
+.alert {
+	font-size: 0.95rem;
+}
+@font-face{
+  font-family:btfFont;
+  src:url(https://other.goodant.top:21443/fonts/HYTangMeiRen65W.woff2) format('woff2');
+  font-display: swap;
+}
 body{
 	background: #f4f5f7 !important;
-	font-family: 'Open Sans', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+	font-family: 'btfFont', 'Open Sans', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
 }
 a{
 	transition: color .25s ease;
