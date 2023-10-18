@@ -20,9 +20,9 @@
 <meta property="article:author" content="GOODAN">
 <meta name="twitter:card" content="summary">
 
-	<meta name="theme-color" content="#5e72e4">
-	<meta name="theme-color-rgb" content="94,114,228">
-	<meta name="theme-color-origin" content="#5e72e4">
+	<meta name="theme-color" content="#2196f3">
+	<meta name="theme-color-rgb" content="33,150,243">
+	<meta name="theme-color-origin" content="#2196f3">
 	<meta name="argon-enable-custom-theme-color" content="true">
 	<meta name="theme-card-radius" content="4">
 	<meta name="theme-version" content="1.0.2">
@@ -72,7 +72,7 @@
 		}
 	</script>
 	<script>
-		var darkmodeAutoSwitch = "false";
+		var darkmodeAutoSwitch = "time";
 		function setDarkmode(enable){
 			if (enable == true){
 				$("html").addClass("darkmode");
@@ -158,13 +158,13 @@
 <style id="themecolor_css">
 	
 	:root{
-		--themecolor: #5e72e4;
-		--themecolor-dark0: #5368E2;
-		--themecolor-dark: #485FE0;
-		--themecolor-dark2: #324CDD;
-		--themecolor-dark3: #233DD2;
-		--themecolor-light: #8A98EB;
-		--themecolor-rgbstr: 94,114,228;
+		--themecolor: #2196f3;
+		--themecolor-dark0: #1590F2;
+		--themecolor-dark: #0D8AEE;
+		--themecolor-dark2: #0C7CD5;
+		--themecolor-dark3: #0A6EBD;
+		--themecolor-light: #51ADF6;
+		--themecolor-rgbstr: 33,150,243;
 		--themecolor-gradient: linear-gradient(150deg,var(--themecolor-light) 15%, var(--themecolor) 70%, var(--themecolor-dark0) 94%);
 
 	}
@@ -184,7 +184,7 @@
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<a class="navbar-brand" href="/">Hexo</a>
+				<a class="navbar-brand" href="/">--hidden--</a>
 				<div class="navbar-collapse collapse" id="navbar_global">
 					<div class="navbar-collapse-header">
 						<div class="row">
@@ -289,16 +289,10 @@
 	
 	<div id="banner_container" class="banner-container container text-center">
 		
-			<div class="banner-title text-white"><span class="banner-title-inner">Hexo</span>
+			<div class="banner-title text-white" data-text="GoodAN的博客" data-interval=""><span class="banner-title-inner">&nbsp;</span>
 		
-		</div>
+		<span class="banner-subtitle d-block">O ever youthful, O ever weeping.</span></div>
 	</div>
-	
-		<style>
-			section.banner{
-				background-image: url(/assets/img/banner.jpg) !important;
-			}
-		</style>
 	
 </section>
 
@@ -313,11 +307,11 @@
 			top: 0;
 			bottom: 0;
 			z-index: -2;
-			background: url(/assets/img/banner.jpg);
+			background: url(/assets/img/daytime.webp);
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
-			opacity: 1;
+			opacity: 0.8;
 			transition: opacity .5s ease;
 		}
 		html.darkmode #content:before{
@@ -333,7 +327,7 @@
 				top: 0;
 				bottom: 0;
 				z-index: -2;
-				background: url(/assets/img/banner.jpg);
+				background: url(/assets/img/night.webp);
 				background-position: center;
 				background-size: cover;
 				background-repeat: no-repeat;
@@ -341,7 +335,7 @@
 				transition: opacity .5s ease;
 			}
 			html.darkmode #content:after {
-				opacity: 1;
+				opacity: 0.8;
 			}
 			html.darkmode #content:before {
 				opacity: 0;
@@ -445,8 +439,10 @@
 		
 		<div id="leftbar_part1" class="widget widget_search card bg-white shadow-sm border-0">
 			<div class="leftbar-banner card-body">
-				<span class="leftbar-banner-title text-white">Hexo</span>
+				<span class="leftbar-banner-title text-white">努力向上的计科萌新</span>
 				
+				
+					<span class="leftbar-banner-subtitle text-white">旦行善者，福虽未至，祸已远行</span>
 				
 			</div>
 			
@@ -497,7 +493,7 @@
 							</div>
 						
 						<div class="tab-pane fade text-center" id="leftbar_tab_overview" role="tabpanel" aria-labelledby="leftbar_tab_overview_btn">
-							<img id="leftbar_overview_author_image" src="/assets/img/auther.jpg" class="img-fluid rounded-circle shadow-sm" style="width: 100px;" alt="avatar">
+							<img id="leftbar_overview_author_image" src="/assets/img/logo.webp" class="img-fluid rounded-circle shadow-sm" style="width: 100px;" alt="avatar">
 							<h6 id="leftbar_overview_author_name">Hexo</h6>
 							<nav class="site-state">
 								<div class="site-state-item site-state-posts">
